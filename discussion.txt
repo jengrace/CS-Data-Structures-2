@@ -1,0 +1,98 @@
+====== Recursion =====
+
+1. Recursion is where a function can call itself. Each function that was called
+is waiting for an answer from the function that was called after it. Recursion 
+causes a call stack of recursive functions.
+
+2. A base case is necessary to have a stopping point for recursing.
+
+====== Graphs =====
+
+1. Graph is a data structure that shows the relationships between nodes. 
+
+2. Graphs can be directed or non directed and cyclic or acyclic versus trees
+that are acyclic and directed.
+
+3. Something that would be good to model with a graph would be finding the 
+shortest route to get to your destination.
+
+====== Performance of Different Data Structures =====
+
+*Fill in runtimes
+Index: 
+Linked list: O(n)
+Doubly linked list: O(n)
+
+Search:
+Linked list- O(n)
+Doubly-linked list- O(n)
+
+Add(R):
+Linked list: O(1)
+Doubly-linked list: O(1)
+Queue(as Array): O(1)
+Queue(as LL or DLL): O(1)
+Stack(as Array, LL, or DLL): O(1)
+Deque(as DLL): O(1)
+
+Add(L): 
+Python List(Array): O(n)
+Linked list: O(1)
+Doubly-linked list: O(1)
+Deque(as DLL): O(1)
+
+Pop(L):
+Python List(Array): O(n)
+Linked list: O(1)
+Doubly-linked list: O(1)
+Queue(as Array): O(n)
+Queue(as LL or DLL): O(1)
+Deque(as DLL): O(1)
+
+Pop(R):
+Python List(Array): O(1)
+Linked list: O(1)
+Doubly-linked list: O(1)
+Stack(as Array, LL, or DLL): O(1)
+Deque(as DLL): O(1)
+
+*Fill in Runtime and Memory:
+Get:
+Set(Hash Map): O(1) 
+Binary Search Tree: O(log n) 
+Tree: O(n) 
+
+Add:
+Set(Hash Map): O(1)
+Binary Search Tree: O(log n)
+Tree: O(1)
+
+Delete:
+Set(Hash Map): O(1)
+Binary Search Tree: O(log n)
+Tree: O(1)
+
+Iterate:
+Set(Hash Map): O(1)
+Binary Search Tree: O(log n)
+Tree: O(n)
+
+Memory:
+Set(Hash Map): medium
+Binary Search Tree: light
+Tree: light
+
+====== Sorting =====
+
+1. Bubble sort algorithm works by switching positions with neighbor to the right 
+depending if the neighbors value is greater than or less than the other value. 
+If greater, stay in place and if less than, make the switch. This process repeats
+from left to right until the list of values is fully sorted in ascending order.
+
+2. Merge sort algorithm takes a divide and conquer approach where a list/array
+is divided into equal halves, and that process repeats until down to single element 
+arrays. Those single elements eventually combine in a sorted way. 
+
+3. Quick sort divides the list into parts and chooses a pivot number where we move numbers
+lower than the pivot number to the left of the pivot and numbers bigger than the 
+pivot to the right. 
